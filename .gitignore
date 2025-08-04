@@ -1,0 +1,37 @@
+# Binaries
+/vaultlite
+/vaultlite-*
+
+# Build outputs
+*.exe
+*.out
+*.test
+
+# Secrets and config
+*.key
+*.pem
+*.enc
+*.crt
+*.env
+*.secret
+*.bak
+
+# Local runtime/config
+.vaultlite/
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency cache
+vendor/
+
+# User config files
+~/Library/Application Support/vaultlite/
+~/.vaultlite/
